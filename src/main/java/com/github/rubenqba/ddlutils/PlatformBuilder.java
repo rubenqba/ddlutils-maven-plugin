@@ -1,4 +1,4 @@
-package org.github.rubenqba.maven.ddlutils;
+package com.github.rubenqba.ddlutils;
 
 import org.apache.ddlutils.Platform;
 import org.apache.ddlutils.PlatformFactory;

@@ -1,4 +1,4 @@
-package org.github.rubenqba.maven.ddlutils;
+package com.github.rubenqba.ddlutils;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -28,7 +28,8 @@ import org.apache.ddlutils.model.Database;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
-import org.github.rubenqba.maven.ddlutils.PlatformBuilder.DBType;
+
+import com.github.rubenqba.ddlutils.PlatformBuilder.DBType;
 
 /**
  * Generate database ddl schema
